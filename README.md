@@ -64,15 +64,6 @@ plt.show()
 
 ![WhatsApp Image 2025-10-09 at 15 53 35_bf6c085b](https://github.com/user-attachments/assets/f1a57b4b-706a-40ba-8490-d704460d1bb3)
 
-
-
-
-Calculation
-1.	ma (Theory) = am/ac =0.7647
-2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =0.7626
-![WhatsApp Image 2025-10-09 at 15 53 35_5c22be3f](https://github.com/user-attachments/assets/8227b670-81a0-43eb-9c2d-15ac0f08da13)
-
-
  
  __Output__:
  <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/52e4ee41-4538-45ae-b5e8-f2d220cf69ef" />
