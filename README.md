@@ -1,6 +1,6 @@
-# -Amplitude-Modulation-and-Demodulation-using-NumPy-and-Matplotlib
- # NAME :  KRISHNA KUMARI E
-# REG NO :  212224060127
+ # -Amplitude-Modulation-and-Demodulation-using-NumPy-and-Matplotlib
+ # NAME : NABISHA A
+# REG NO : 212223060177
 
 __Aim__: 
 
@@ -26,19 +26,16 @@ __Algorithm__:
 5. Modulate Signal: Apply the AM formula to obtain the modulated signal. 
 6. Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 
-
-
-
 PROGRAM :
 ```
 import numpy as np 
 import matplotlib.pyplot as plt 
 # Given parameters 
-Ac = 8.5# Carrier amplitude 
-fc = 1800  # Carrier frequency in Hz 
-Am = 6.5# Message signal amplitude 
-fm = 180  # Message signal frequency in Hz 
-fs = 12000 # Sampling frequency 
+Ac = 7 # Carrier amplitude 
+fc = 1200  # Carrier frequency in Hz 
+Am = 5# Message signal amplitude 
+fm = 120 # Message signal frequency in Hz 
+fs = 12000  # Sampling frequency 
 t = np.arange(0, 2/fm, 1/fs)  # Time vector 
 # Message signal (modulating signal) 
 Em = Am * np.sin(2 * np.pi * fm * t) 
@@ -60,7 +57,20 @@ plt.grid()
 plt.tight_layout() 
 plt.show()
 ```
-  
+
+
+ TABULATION:
+
+![WhatsApp Image 2025-10-09 at 15 53 35_bf6c085b](https://github.com/user-attachments/assets/f1a57b4b-706a-40ba-8490-d704460d1bb3)
+
+
+
+
+Calculation
+1.	ma (Theory) = am/ac =0.7647
+2.	ma(Practical) = (Emax-Emin)/(Emax+Emin) =0.7626
+![WhatsApp Image 2025-10-09 at 15 53 35_5c22be3f](https://github.com/user-attachments/assets/8227b670-81a0-43eb-9c2d-15ac0f08da13)
+
  __Output__:
  <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/52e4ee41-4538-45ae-b5e8-f2d220cf69ef" />
 
