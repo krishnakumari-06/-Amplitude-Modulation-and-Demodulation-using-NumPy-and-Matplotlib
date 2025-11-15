@@ -60,11 +60,7 @@ plt.grid()
 plt.tight_layout() 
 plt.show()
 ```
- TABULATION:
-
-![WhatsApp Image 2025-10-09 at 15 53 35_bf6c085b](https://github.com/user-attachments/assets/f1a57b4b-706a-40ba-8490-d704460d1bb3)
-
- 
+  
  __Output__:
  <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/52e4ee41-4538-45ae-b5e8-f2d220cf69ef" />
 
