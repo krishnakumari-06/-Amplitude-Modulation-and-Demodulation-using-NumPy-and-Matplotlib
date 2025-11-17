@@ -41,7 +41,9 @@ t = np.arange(0, 2/fm, 1/fs)  # Time vector
 Em = Am * np.sin(2 * np.pi * fm * t) 
 # Carrier signal 
 Ec = Ac * np.sin(2 * np.pi * fc * t) 
-# Amplitude Modulated (AM) signal 
+# Amplitude Modulated (AM) signal <img width="1238" height="733" alt="image" src="https://github.com/user-attachments/assets/b2ed7455-e286-4808-87ed-c0c38d0b1635" />
+<img width="1238" height="733" alt="image" src="https://github.com/user-attachments/assets/75e1e76c-3ac1-483d-8793-069fa9c1a8cc" />
+
 Eam = (Ac + Am * np.sin(2 * np.pi * fm * t)) * np.sin(2 * np.pi * fc * t) 
 # Plot the signals 
 plt.figure(figsize=(10, 6)) 
@@ -72,7 +74,8 @@ Calculation
 ![WhatsApp Image 2025-10-09 at 15 53 35_5c22be3f](https://github.com/user-attachments/assets/8227b670-81a0-43eb-9c2d-15ac0f08da13)
 
  __Output__:
- <img width="720" height="1280" alt="image" src="https://github.com/user-attachments/assets/52e4ee41-4538-45ae-b5e8-f2d220cf69ef" />
+ <img width="1238" height="733" alt="image" src="https://github.com/user-attachments/assets/dbeb1a1c-ae9b-4e37-97e7-7fec4b211560" />
+
 
  __Result__:
 The message signal, carrier signal, and amplitude modulated (AM) signal will be displayed in separate plots. Thus, AM is implemented using numPy and Matplotlib.
