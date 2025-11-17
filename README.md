@@ -1,6 +1,6 @@
  # -Amplitude-Modulation-and-Demodulation-using-NumPy-and-Matplotlib
- # NAME : NABISHA A
-# REG NO : 212223060177
+ # NAME : KRISHNA KUMARI
+# REG NO : 212224060127
 
 __Aim__: 
 
