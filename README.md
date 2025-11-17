@@ -1,5 +1,5 @@
  # -Amplitude-Modulation-and-Demodulation-using-NumPy-and-Matplotlib
- # NAME : KRISHNA KUMARI
+ # NAME : KRISHNA KUMARI E
 # REG NO : 212224060127
 
 __Aim__: 
@@ -31,11 +31,11 @@ PROGRAM :
 import numpy as np 
 import matplotlib.pyplot as plt 
 # Given parameters 
-Ac = 7 # Carrier amplitude 
+Ac = 6.5 # Carrier amplitude 
 fc = 1200  # Carrier frequency in Hz 
-Am = 5# Message signal amplitude 
-fm = 120 # Message signal frequency in Hz 
-fs = 12000  # Sampling frequency 
+Am = 8.5# Message signal amplitude 
+fm = 180 # Message signal frequency in Hz 
+fs = 1800  # Sampling frequency 
 t = np.arange(0, 2/fm, 1/fs)  # Time vector 
 # Message signal (modulating signal) 
 Em = Am * np.sin(2 * np.pi * fm * t) 
